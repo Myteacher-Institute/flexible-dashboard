@@ -118,6 +118,7 @@ footer div a:last-of-type:hover {
   transition: transform 0.3s ease;
   font-family: sans-serif;
   display: flex;
+  
 }
 
 
@@ -180,6 +181,7 @@ footer div a:last-of-type:hover {
   position: relative;
   transition: transform 0.3s ease;
   font-family: sans-serif;
+  flex-direction: column-reverse;
   
 }
 
