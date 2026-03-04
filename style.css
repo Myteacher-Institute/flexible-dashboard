@@ -106,3 +106,342 @@ footer div a:last-of-type {
 footer div a:last-of-type:hover {
     box-shadow: 2px 2px 10px 0 blue;
 }
+
+
+.card-one {
+  width: 50px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  font-family: sans-serif;
+  display: flex;
+}
+
+
+.product-card:hover {
+  color:#43f3b8;
+}
+
+.nike-shoe {
+  width: 50%;
+  height: auto;
+  display: block; 
+
+}
+.card-content {
+  padding: 20px;
+}
+
+.product-title {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-row {
+  margin: 15px 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+.card-2 {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  font-family: sans-serif;
+  
+}
+
+
+.product-card:hover {
+  color:#43f3b8;
+}
+
+.T-shirt{
+  width: 50%;
+  height: auto;
+  display: block; 
+
+}
+.card-content-2 {
+  padding: 20px;
+}
+
+.product-title-2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-row-2{
+  margin: 15px 0;
+}
+
+.price-2 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-2 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+
+.price-3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-3 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+
+
+.card-3 {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  font-family: sans-serif;
+}
+
+
+.product-card:hover {
+  color:#43f3b8;
+}
+
+.laptop {
+  width: 50%;
+  height: auto;
+  display: block; 
+
+}
+.card-content-3 {
+  padding: 20px;
+}
+
+.product-title-3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-row-3{
+  margin: 15px 0;
+}
+
+.price-3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-3 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+
+.price-3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-3 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+
+.card-4 {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  font-family: sans-serif;
+}
+
+
+.product-card:hover {
+  color:#43f3b8;
+}
+
+.I-phone {
+  width: 50%;
+  height: auto;
+  display: block; 
+
+}
+.card-content-4 {
+  padding: 20px;
+}
+
+.product-title-4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-row-4{
+  margin: 15px 0;
+}
+
+.price-4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-4 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
+
+.price-4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2f3542;
+}
+
+.old-price-4 {
+  text-decoration: line-through;
+  color: #a4b0be;
+  margin-left: 10px;
+}
+
+.add-btn {
+  width: 50%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: center;
+
+}
+
+.add-btn:hover {
+  background: #3742fa;
+}
