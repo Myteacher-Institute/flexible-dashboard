@@ -68,7 +68,13 @@ main section {
     flex: 1;
     width: 400px;
     background-color: plum;
-    height: calc(100dvh - 114px);
+    height:auto;
+}
+
+section .card{
+    height: 350px;
+    width: 400px;
+    overflow: hidden;
 }
 
 .card-container {
