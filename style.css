@@ -7,16 +7,17 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 header {
     height: 80px;
     display: flex;
     align-items: center;
-    padding-inline: 100px;
+    padding-inline: 30px;
     justify-content: space-between;
+}
+
+a {
+    color: #002e8a;
+    text-decoration: none;
 }
 
 header nav {
@@ -25,20 +26,124 @@ header nav {
 }
 
 header nav a {
-    color: #002e8a;
     font-size: 1.2rem;
+}
+
+header nav a:hover {
+    color: #43fb84;
 }
 
 header nav a:nth-of-type(3) {
     order: 1;
 }
 
+main {
+    flex: 1;
+    display: flex;
+}
+
 main aside {
-    background-color: red;
+    padding: 0 20px 20px;
+    flex: 0 1 250px;
+    width: 400px;
+    /* background-color: grey; */
     height: calc(100dvh - 114px);
 }
 
+aside ul li {
+    padding: 20px 20px 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style: none;
+    background-color: plum;
+}
+
+aside ul li:hover {
+    color: white;
+    background-color: #D8BCC4;
+}
+
 main section {
-    background-color: green;
+    flex: 1;
+    width: 400px;
+    background-color: plum;
     height: calc(100dvh - 114px);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.card {
+  width: 290px;
+  height: 290px;  
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: center;    
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.card button {
+  padding: 8px 15px;
+  border: none;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+    padding-inline: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    margin-inline: 10px;
+    display: inline-block;
+}
+
+footer div a:first-of-type {
+    background-color: purple;
+}
+
+footer div a:first-of-type:hover {
+    box-shadow: 2px 2px 10px 0 purple;
+}
+
+footer div a:nth-of-type(2) {
+    background-color: black;
+}
+
+footer div a:nth-of-type(2):hover {
+    box-shadow: 2px 2px 10px 0 black;
+}
+
+footer div a:last-of-type {
+    background-color: blue;
+}
+
+footer div a:last-of-type:hover {
+    box-shadow: 2px 2px 10px 0 blue;
 }
