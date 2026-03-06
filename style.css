@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+In&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -16,22 +19,18 @@ header {
     justify-content: space-between;
 }
 
-a {
-    color: #002e8a;
-    text-decoration: none;
-}
-
 header nav {
     gap: 20px;
     display: flex;
 }
 
 header nav a {
+    color: #002e8a;
     font-size: 1.2rem;
 }
 
 header nav a:hover {
- color: #43fb84;
+    color: #43f3b8;
 }
 
 header nav a:nth-of-type(3) {
@@ -39,89 +38,87 @@ header nav a:nth-of-type(3) {
 }
 
 main {
-    flex: 1;
     display: flex;
 }
 
 main aside {
-    padding: 0 20px 20px;
     flex: 0 1 250px;
-    width: 400px;
-    /* background-color: grey; */
-    height: calc(100dvh - 114px);
+    padding: 0 30px 30px;
+    height: calc(100dvh - 140px);
 }
 
 aside ul li {
-    padding: 20px 20px 20px 40px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 20px;
     cursor: pointer;
     list-style: none;
-    background-color: #eeee;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #eeeeee;
 }
 
 aside ul li:hover {
-    color: #ffff;
-    background-color: #43fb84;
+    color: #ffffff;
+    background-color: #43f3b8;
 }
+
 main section {
     flex: 1;
-    width: 400px;
-    background-color: #eeee;
-    height: calc(100dvh - 114px);
-}
-
-/* Cards Wrapper
-.cards-wrapper {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
     gap: 30px;
-}
-
- Each Row 
-.cards-row {
     display: flex;
-    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    background-color: #eeeeee;
+    height: calc(100dvh - 140px);
 }
 
-Individual Card
-.card {
-    flex: 1;
+section .card {
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 50px;
     background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    /* transition: 0.3s ease; */
-    /* cursor: pointer; */
-/* } */
-
-/* Card Hover Effect
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    background-color: #43fb84;
-    color: white;
 }
 
-Card Title
-.card h3 {
-    margin-bottom: 15px;
-    color: #002e8a;
+section .card img {
+    width: 100%;
+    height: 340px;
+    border-radius: 35px;
 }
 
-Card Number
-.card p {
+section .card p {
     font-size: 1.8rem;
-    font-weight: bold;
-}  */
+    margin-block: 8px 2px;
+}
+
+section .card span {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+section .card button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: black;
+}
+
+section .card button:hover {
+    background-color: #43f3b8;
+}
 
 footer {
-    padding-inline: 30px;
     height: 60px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding-inline: 30px;
+    justify-content: space-between;
 }
 
 footer div a {
@@ -145,7 +142,7 @@ footer div a:nth-of-type(2) {
 }
 
 footer div a:nth-of-type(2):hover {
-   box-shadow: 2px 2px 10px 0 black;
+    box-shadow: 2px 2px 10px 0 black;
 }
 
 footer div a:last-of-type {
@@ -153,5 +150,5 @@ footer div a:last-of-type {
 }
 
 footer div a:last-of-type:hover {
-   box-shadow: 2px 2px 10px 0 blue;
+    box-shadow: 2px 2px 10px 0 blue;
 }
