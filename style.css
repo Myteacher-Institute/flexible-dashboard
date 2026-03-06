@@ -71,7 +71,7 @@ main section {
     height: calc(100dvh - 114px);
 }
 
-/* Cards Wrapper */
+/* Cards Wrapper
 .cards-wrapper {
     padding: 30px;
     display: flex;
@@ -79,13 +79,13 @@ main section {
     gap: 30px;
 }
 
-/* Each Row */
+ Each Row 
 .cards-row {
     display: flex;
     gap: 30px;
 }
 
-/* Individual Card */
+Individual Card
 .card {
     flex: 1;
     background-color: white;
@@ -93,28 +93,28 @@ main section {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     /* transition: 0.3s ease; */
-    cursor: pointer;
-}
+    /* cursor: pointer; */
+/* } */
 
-/* Card Hover Effect */
+/* Card Hover Effect
 .card:hover {
-    /* transform: translateY(-5px); */
+    transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     background-color: #43fb84;
     color: white;
 }
 
-/* Card Title */
+Card Title
 .card h3 {
     margin-bottom: 15px;
     color: #002e8a;
 }
 
-/* Card Number */
+Card Number
 .card p {
     font-size: 1.8rem;
     font-weight: bold;
-}
+}  */
 
 footer {
     padding-inline: 30px;
