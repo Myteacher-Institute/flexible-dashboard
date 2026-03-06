@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -30,7 +34,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #43fb84;
+    color: #43f3b8;
 }
 
 header nav a:nth-of-type(3) {
@@ -38,16 +42,27 @@ header nav a:nth-of-type(3) {
 }
 
 main {
-    flex: 1;
     display: flex;
 }
 
 main aside {
-    padding: 0 20px 20px;
     flex: 0 1 250px;
-    width: 400px;
-    /* background-color: grey; */
-    height: calc(100dvh - 114px);
+    padding: 0 30px 30px;
+    height: calc(100dvh - 140px);
+}
+
+aside ul li {
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+aside ul li:hover {
+    color: #ffffff;
+    background-color: #43f3b8;
 }
 
 aside ul li {
@@ -65,62 +80,63 @@ aside ul li:hover {
 }
 
 main section {
-    overflow-y: hidden;
     flex: 1;
-    width: 400px;
-    background-color: plum;
-    height:calc(100dvh - 114px);
+    gap: 30px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    background-color: #eeeeee;
+    height: calc(100dvh - 140px);
 }
 
-section .card{
-    height: 350px;
-    width: 400px;
-    overflow: hidden;
+section .card {
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: white;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding: 40px;
-  justify-content: center;
+section .card img {
+    width: 100%;
+    height: 340px;
+    border-radius: 35px;
 }
 
-.card {
-  width: 290px;
-  height: 290px;  
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  padding: 20px;
-
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;  
-  align-items: center;    
-  text-align: center;
+section .card p {
+    font-size: 1.8rem;
+    margin-block: 8px 2px;
 }
 
-.card p {
-  margin-bottom: 15px;
-  color: #555;
+section .card span {
+    color: grey;
+    font-size: 1.2rem;
 }
 
-.card button {
-  padding: 8px 15px;
-  border: none;
-  background: #4a6cf7;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
+section .card button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: black;
+}
+
+section .card button:hover {
+    background-color: #43f3b8;
 }
 
 footer {
-    padding-inline: 30px;
     height: 60px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding-inline: 30px;
+    justify-content: space-between;
 }
 
 footer div a {
