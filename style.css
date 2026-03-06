@@ -53,6 +53,10 @@ aside ul li {
     list-style: none;
     margin-bottom: 20px;
     border-radius: 10px;
+    /* transition-property: color; */
+    transition-duration: 3s;
+    /* transition-delay: 5s; */
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     background-color: #eeeeee;
 }
 
@@ -106,6 +110,7 @@ section .card button {
     margin-top: 10px;
     color: #ffffff;
     border-radius: 50px;
+    transition-duration: 1s;
     background-color: black;
 }
 
