@@ -200,3 +200,9 @@ footer div a:last-of-type:hover {
     }
 
 }
+
+@media all and (width >= 360px) {
+    aside ul li:last-of-type {
+        margin-top: 20px;
+    }
+}
